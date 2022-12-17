@@ -25,9 +25,6 @@ import sunset_1 from '../images/sunset-1.jpg'
 import sunset_2 from '../images/sunset-2.jpg'
 import sunset_3 from '../images/sunset-3.jpg'
 
-import decoration_2 from '../images/decoration-2.png'
-import decoration from '../images/decoration.png'
-
 // Components
 // import Image from '../components/Image'
 import { faArrowDown } from '@fortawesome/free-solid-svg-icons'
@@ -39,12 +36,11 @@ const IndexPage: React.FC<PageProps> = () => {
 
 	return (
 		<>
-			<body className="text-white bg-black min-h-screen pb-48 max-w-[90%] m-auto xl:px-8">
-				<section className="wrapper grid  gap-2 px-2">
+			<body className="text-white bg-black min-h-screen pt-6 px-2 mb-24 max-w-[90%] m-auto xl:px-8">
+				<section className="wrapper grid gap-2 ">
 					<Navbar />
-					<section className="hero relative grid grid-cols-7 gap-[1.25rem] col-span-7 mb-4">
-						<img src={decoration} alt="" />
-						<img src={bird} className="relative -z-0 col-span-5 col-start-2" />
+					<section className="hero relative grid grid-cols-7 gap-[1.25rem] col-span-7 mb-4 ">
+						<img src={bird} className="relative -z-0 col-span-7 col-start-1" />
 						<section className="intro col-start-1 mb-20 absolute glass px-4 py-2 xl:ml-[-12rem] xl:px-8 xl:py-4">
 							<h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-6xl mb-4">
 								TAS Photography
@@ -54,9 +50,10 @@ const IndexPage: React.FC<PageProps> = () => {
 								over 20 years
 							</p>
 						</section>
-						<img className="col-start-7" src={decoration_2} alt="" />
 					</section>
-					<section className={`relative nature col-span-7 grid gap-4`}>
+					<section
+						id="Nature"
+						className={`relative nature col-span-7 grid gap-4`}>
 						<img src={fox_image} alt="" />
 						<h2 className="absolute text-2xl md:text-3xl lg:text-4xl xl:text-6xl  translate-y-1/2 px-8 glass">
 							Nature
@@ -84,7 +81,7 @@ const IndexPage: React.FC<PageProps> = () => {
 									<SectionTitle title={'To Alaska'} />
 									<FontAwesomeIcon
 										icon={faArrowDown}
-										className="text-2xl md:text-3xl lg:text-4xl xl:text-6xl m-auto self-center justify-self-center"
+										className="text-2xl md:text-3xl lg:text-4xl xl:text-6xl block m-auto mt-2 "
 									/>
 								</section>
 							</div>
@@ -105,7 +102,7 @@ const IndexPage: React.FC<PageProps> = () => {
 									// after={'Seqouia'}
 								/>
 							</div>
-							<section className={`alaska col-span-7 grid `}>
+							<section className={`alaska col-span-7 gap-4 mt-[-0.5rem] grid `}>
 								<ImageContainer
 									src={alaska_1}
 									classList={'col-span-7'}
@@ -157,7 +154,7 @@ const IndexPage: React.FC<PageProps> = () => {
 							</section>
 						</section>
 					</section>
-					<section className="relative nature col-span-7 grid gap-4">
+					<section id="Auto" className="relative nature col-span-7 grid gap-4">
 						<img src={auto_hero} alt="" />
 						<h2 className="absolute right-0 text-2xl md:text-3xl lg:text-4xl xl:text-6xl  translate-y-1/2 px-8 glass">
 							Automotive

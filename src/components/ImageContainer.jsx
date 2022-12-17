@@ -4,7 +4,7 @@ const ImageContainer = ({ src, alt, classList, before, after }) => {
 	let textBGClass
 	if (after && after.length > 1) {
 		textBGClass =
-			' after:absolute after:inset-1 after:mt-20 after:z-[20] after:w-[80%] after:m-auto after:bg-black after:bg-opacity-20 after:content-[attr(after)] after:text-white after:grid after:place-items-center after:hover:bg-opacity-50 after:hover:place-items-center after:hover:mt-8 after:hover:text-red-200 after:text-xl after:md:text-2xl after:lg:text-3xl after:xl:text-5xl after:h-24 after:hover:h-12'
+			' after:absolute after:inset-1 after:mt-20 after:z-[20] after:w-[80%] after:m-auto after:bg-black after:bg-opacity-80 after:content-[attr(after)] after:text-white after:grid after:place-items-center after:hover:bg-opacity-50 after:hover:place-items-center after:hover:mt-8 after:hover:text-red-200 after:text-xl after:md:text-2xl after:lg:text-3xl after:xl:text-5xl after:h-24 after:hover:h-12'
 	}
 
 	return (
