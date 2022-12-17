@@ -36,7 +36,7 @@ const IndexPage: React.FC<PageProps> = () => {
 
 	return (
 		<>
-			<body className="text-white bg-black min-h-screen pt-6 px-2 mb-24 max-w-[1920px] m-auto xl:px-8">
+			<body className="text-white bg-black min-h-screen  px-2 mb-24 max-w-[1920px] m-auto xl:px-8">
 				<section className="wrapper grid gap-2 ">
 					<Navbar />
 					<section className="hero relative grid grid-cols-7 gap-[1.25rem] col-span-7 mb-4 ">
