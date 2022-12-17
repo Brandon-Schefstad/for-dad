@@ -60,7 +60,7 @@ const IndexPage: React.FC<PageProps> = () => {
 						</h2>
 						<section className={`nature--pictures grid grid-cols-7 gap-6`}>
 							<img className={'col-span-7'} src="../images/bird-2.jpg" alt="" />
-							<SectionTitle title={'From Yosemite'} classList={' mt-[-1rem]'} />
+							<SectionTitle title={'From Yosemite'} classList={''} />
 							<ImageContainer
 								classList={'col-span-7 place-self-center'}
 								src={yosemite}
