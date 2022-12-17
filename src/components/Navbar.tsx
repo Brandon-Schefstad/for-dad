@@ -4,21 +4,31 @@ const Navbar = () => {
 	return (
 		<>
 			{' '}
-			<nav className="bg-black z-30 col-span-7 left-0 pt-2 xl:pt-4 fixed w-full grid">
-				<ul className="grid place-items-center gap-6 grid-cols-3 w-full text-center">
-					<li className="w-full text-sm btn hover:text-white  rounded-none hover:bg-black bg-slate-200 text-black">
+			{/* <nav className="bg-black z-30  glass fixed bottom-0 left-0 col-span-4 px-4 xl:pt-4 border-2 border-white  border-solid grid">
+				<ul className="grid grid-cols-3 col-span-4 place-items-center text-center"> */}
+			{/* <li className="w-20 text-sm btn  hover:text-white  rounded-none hover:bg-black bg-slate-200 text-black">
 						Nature
 					</li>
-					<li className="w-full text-sm btn hover:text-white rounded-none hover:bg-black bg-slate-200 text-black">
+					<li className="w-20 text-sm btn hover:text-white rounded-none hover:bg-black bg-slate-200 text-black">
 						Auto
 					</li>
-					<li className="w-full text-sm btn hover:text-white rounded-none hover:bg-black bg-slate-200 text-black">
+					<li className="w-20 text-sm btn hover:text-white rounded-none hover:bg-black bg-slate-200 text-black">
 						Family
-					</li>
-
-					<img className="max-h-16 w-32" src="../images/logo.png" alt="" />
+					</li> */}
+			<div className="btm-nav bg-black z-30  glass fixed bottom-0 left-0 col-span-4 px-4 pt-[-1rem]xl:pt-4 border-2 border-white  border-solid grid grid-cols-3 gap-8 ">
+				<div className="nav-item text-sm btn  hover:text-white  rounded-none hover:bg-black bg-slate-200 text-black">
+					<span>Nature</span>
+				</div>
+				<div className="nav-item text-sm btn  hover:text-white  rounded-none hover:bg-black bg-slate-200 text-black">
+					<span>Auto</span>
+				</div>
+				<div className="nav-item text-sm btn  hover:text-white  rounded-none hover:bg-black bg-slate-200 text-black">
+					<span>Family</span>
+				</div>
+			</div>
+			{/* <img className="max-h-16 w-32" src="../images/logo.png" alt="" />
 				</ul>
-			</nav>
+			</nav> */}
 		</>
 	)
 }
