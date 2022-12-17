@@ -2172,6 +2172,10 @@ html {
   margin-top: 0.5rem;
 }
 
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
 .block {
   display: block;
 }
@@ -2202,6 +2206,10 @@ html {
 
 .w-1\/2 {
   width: 50%;
+}
+
+.w-3\/4 {
+  width: 75%;
 }
 
 .max-w-\[90\%\] {
@@ -2614,6 +2622,10 @@ html {
 @media (min-width: 1280px) {
   .xl\:ml-\[-12rem\] {
     margin-left: -12rem;
+  }
+
+  .xl\:mb-0 {
+    margin-bottom: 0px;
   }
 
   .xl\:w-1\/2 {
