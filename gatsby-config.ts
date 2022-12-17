@@ -20,7 +20,7 @@ const config: GatsbyConfig = {
 				web: [
 					{
 						name: `Merriweather`,
-						file: `https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap`,
+						file: `https://fonts.googleapis.com/css2?family=Merriweather:wght@100;200;300;400;700;900&display=swap`,
 					},
 				],
 			},

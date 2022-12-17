@@ -42,7 +42,7 @@ const IndexPage: React.FC<PageProps> = () => {
 					<section className="hero relative grid grid-cols-7 gap-[1.25rem] col-span-7 mb-4 ">
 						<img src={bird} className="relative -z-0 col-span-7 col-start-1" />
 						<section className="intro col-start-1 mb-20 absolute glass px-4 py-2 xl:ml-[-12rem] xl:px-8 xl:py-4">
-							<h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-6xl mb-4">
+							<h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-6xl mb-4 font-extrabold">
 								TAS Photography
 							</h1>
 							<p className="text-md md:text-xl lg:text-3xl xl:text-4xl">
@@ -55,7 +55,7 @@ const IndexPage: React.FC<PageProps> = () => {
 						id="Nature"
 						className={`relative nature col-span-7 grid gap-4`}>
 						<img src={fox_image} alt="" />
-						<h2 className="absolute text-2xl md:text-3xl lg:text-4xl xl:text-6xl  translate-y-1/2 px-8 glass">
+						<h2 className="absolute text-2xl md:text-3xl lg:text-4xl xl:text-6xl  translate-y-1/2 px-8 glass font-semibold">
 							Nature
 						</h2>
 						<section className={`nature--pictures grid grid-cols-7 gap-6`}>
@@ -156,7 +156,7 @@ const IndexPage: React.FC<PageProps> = () => {
 					</section>
 					<section id="Auto" className="relative nature col-span-7 grid gap-4">
 						<img src={auto_hero} alt="" />
-						<h2 className="absolute right-0 text-2xl md:text-3xl lg:text-4xl xl:text-6xl  translate-y-1/2 px-8 glass">
+						<h2 className="absolute right-0 text-2xl md:text-3xl lg:text-4xl xl:text-6xl  translate-y-1/2 px-8 glass font-semibold">
 							Automotive
 						</h2>
 
